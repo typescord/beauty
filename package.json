@@ -1,20 +1,21 @@
 {
-  "name": "eslint-plugin-typescord",
+  "name": "eslint-config",
   "version": "0.0.0",
-  "description": "Eslint rules for Typescord packages",
+  "description": "Eslint config for Typescord packages",
   "keywords": [
     "eslint",
-    "eslint-plugin",
+    "eslint-config",
     "typescord",
     "typescript"
   ],
-  "main": "lib/index.js",
-  "repository": "https://github.com/typescord/eslint-plugin-typescord.git",
-  "homepage": "https://github.com/AdonisCommunity/eslint-plugin-adonis#readme",
+  "main": "src/index.js",
+  "repository": "https://github.com/typescord/eslint-config.git",
+  "homepage": "https://github.com/typescord/eslint-config#readme",
   "author": "typescord",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": "^7.0.0",
+    "eslint-plugin-import": "^2.22.1"
   },
   "devDependencies": {
     "eslint": "^7.20.0"
@@ -22,16 +23,10 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint-plugin-sonarjs": "^0.5.0",
-    "eslint-plugin-unicorn": "^28.0.0",
     "js-yaml": "^4.0.0"
   },
   "engines": {
     "node": ">=10.0.0"
   },
-  "directories": {
-    "lib": "lib"
-  }
+  "files": ["src"]
 }

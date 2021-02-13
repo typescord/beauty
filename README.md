@@ -1,36 +1,43 @@
 # Typescord ESLint config
+
 > ESLint config for Typescord projects
 
-This repository contains the ESLint configuration used by the core packages of Typescord but also for Typescord projects.
+This repository contains the ESLint configuration used by the core packages of Typescord.
 
 ## Installation
 
-[ESLint](http://eslint.org) is required to use this config.
-```
-$ npm i eslint @typescord/eslint-config --save-dev
-// or with Yarn :
-$ yarn add eslint @typescord/eslint-config -D
+The configuration requires `eslint` and `eslint-plugin-import`. Install the correct versions of each package, which are listed by the command:
+
+```sh
+npm info "@typescord/eslint-config" peerDependencies
 ```
 
-**Warning:** If you already installed ESLint globally, you must also install `@typescord/eslint-config` globally.
+If using **npm 5+**, use this shortcut
+
+```sh
+npx install-peerdeps --dev @typescord/eslint-config
+```
+
+If using **yarn**, you can also use the shortcut described above if you have npm 5+ installed on your machine, as the command will detect that you are using yarn and will act accordingly.
+Otherwise, run `npm info "eslint-config-airbnb-base@latest" peerDependencies` to list the peer dependencies and versions, then run `yarn add --dev <dependency>@<version>` for each listed peer dependency.
 
 ## Usage
-Add `typescord` to the plugins section of your `.eslintrc` or `.eslintrc.yml` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ### For core or community packages
-`typescord/package` must be extended when creating packages for Typescord.
+
+`@typescord` must be extended when creating packages for Typescord.
 
 JSON format:
+
 ```json
 {
-  "extends": [
-    "plugin:typescord/package"
-  ]
+  "extends": ["@typescord"]
 }
 ```
 
 YAML format:
+
 ```yaml
 extends:
-  - plugin:typescord/package
+  - "@typescord"
 ```
