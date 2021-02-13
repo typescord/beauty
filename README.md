@@ -7,7 +7,7 @@ This repository contains the ESLint configuration used by the core packages of T
 
 [ESLint](http://eslint.org) is required to use this plugin.
 ```
-$ npm i eslint eslint-plugin-typescord --save-dev
+$ npm i eslint @typescord/eslint-config --save-dev
 // or with Yarn :
 $ yarn add eslint @typescord/eslint-config -D
 ```
