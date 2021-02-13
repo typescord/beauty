@@ -12,7 +12,7 @@ $ npm i eslint eslint-plugin-typescord --save-dev
 $ yarn add eslint eslint-plugin-typescord -D
 ```
 
-**Warning:** If you already installed ESLint globally, you must also install `eslint-plugin-typescord` globally.
+**Warning:** If you already installed ESLint globally, you must also install `@typescord/eslint-config` globally.
 
 ## Usage
 Add `typescord` to the plugins section of your `.eslintrc` or `.eslintrc.yml` configuration file. You can omit the `eslint-plugin-` prefix:
