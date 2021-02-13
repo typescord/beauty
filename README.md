@@ -32,5 +32,4 @@ YAML format:
 
 ```yaml
 extends: ["@typescord"]
-  - "@typescord"
 ```
