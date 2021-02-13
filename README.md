@@ -31,6 +31,6 @@ JSON format:
 YAML format:
 
 ```yaml
-extends:
+extends: ["@typescord"]
   - "@typescord"
 ```
