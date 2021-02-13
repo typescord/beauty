@@ -1,5 +1,13 @@
 module.exports = {
   root: true,
+  plugins: ["@typescript-eslint", "simple-import-sort", "sonarjs", "unicorn"],
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:sonarjs/recommended",
+    "plugin:unicorn/recommended",
+  ],
   rules: {
     quotes: "off",
     "@typescript-eslint/quotes": [
@@ -130,6 +138,11 @@ module.exports = {
     "no-nested-ternary": "error",
     "no-unneeded-ternary": "error",
     "@typescript-eslint/prefer-includes": "error",
+    "sonarjs/no-duplicate-string": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "import/prefer-default-export": "off",
+    "unicorn/filename-case": "off",
   },
   overrides: [
     {
