@@ -5,7 +5,7 @@ This repository contains the ESLint configuration used by the core packages of T
 
 ## Installation
 
-[ESLint](http://eslint.org) is required to use this plugin.
+[ESLint](http://eslint.org) is required to use this config.
 ```
 $ npm i eslint @typescord/eslint-config --save-dev
 // or with Yarn :
