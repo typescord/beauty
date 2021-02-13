@@ -102,3 +102,14 @@ dist
 
 # TernJS port file
 .tern-port
+
+# VSCode config folder
+.vscode
+
+# Yarn 2
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
