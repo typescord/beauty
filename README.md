@@ -1,4 +1,4 @@
-# ESLint plugin Typescord
+# Typescord ESLint config
 > ESLint config for Typescord projects
 
 This repository contains the ESLint configuration used by the core packages of Typescord but also for Typescord projects.
