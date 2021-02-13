@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   rules: {
-    quotes: 0,
+    quotes: "off",
     "@typescript-eslint/quotes": [
       "error",
       "single",
@@ -9,9 +9,9 @@ module.exports = {
         avoidEscape: true,
       },
     ],
-    semi: 0,
+    semi: "off",
     "@typescript-eslint/semi": "error",
-    "eol-last": 2,
+    "eol-last": "error",
     "object-shorthand": [
       "error",
       "always",
@@ -20,7 +20,7 @@ module.exports = {
       },
     ],
     "max-len": [
-      2,
+      "error",
       {
         code: 120,
         comments: 120,
@@ -28,16 +28,17 @@ module.exports = {
         ignoreTemplateLiterals: true,
       },
     ],
-    "no-underscore-dangle": 0,
-    "no-restricted-syntax": 0,
-    "no-spaced-func": 0,
+    "no-underscore-dangle": "off",
+    "no-restricted-syntax": "off",
+    "no-spaced-func": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-unnecessary-type-assertion": "error",
     "@typescript-eslint/explicit-member-accessibility": "error",
     "no-irregular-whitespace": "error",
-    indent: 0,
+    indent: "off",
     "@typescript-eslint/indent": [
       "error",
-      2,
+      "tab",
       {
         SwitchCase: 1,
         flatTernaryExpressions: false,
@@ -57,6 +58,7 @@ module.exports = {
     "new-parens": ["error", "always"],
     "no-caller": "error",
     "no-constant-condition": "error",
+    "@typescript-eslint/no-unnecessary-condition": "error",
     "no-control-regex": "error",
     "no-debugger": "error",
     "no-duplicate-case": "error",
@@ -99,7 +101,8 @@ module.exports = {
     ],
     "brace-style": ["error", "1tbs"],
     curly: ["error", "all"],
-    "no-return-await": "error",
+    "no-return-await": "off",
+    "@typescript-eslint/return-await": ["error", "never"],
     "@typescript-eslint/naming-convention": [
       "error",
       {
@@ -124,6 +127,9 @@ module.exports = {
     "no-array-constructor": "error",
     "no-unreachable": "error",
     "no-multi-spaces": "error",
+    "no-nested-ternary": "error",
+    "no-unneeded-ternary": "error",
+    "@typescript-eslint/prefer-includes": "error",
   },
   overrides: [
     {
