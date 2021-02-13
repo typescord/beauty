@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@typescord/eslint-config",
   "version": "0.0.0",
   "description": "Eslint config for Typescord packages",
   "keywords": [
@@ -9,8 +9,6 @@
     "typescript"
   ],
   "main": "src/index.js",
-  "repository": "https://github.com/typescord/eslint-config.git",
-  "homepage": "https://github.com/typescord/eslint-config#readme",
   "author": "typescord",
   "license": "MIT",
   "peerDependencies": {
@@ -28,5 +26,13 @@
   "engines": {
     "node": ">=10.0.0"
   },
-  "files": ["src"]
+  "files": ["src"],
+  "homepage": "https://github.com/typescord/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/typescord/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typescord/eslint-config.git"
+  }
 }
