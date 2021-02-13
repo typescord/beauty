@@ -1,5 +1,5 @@
 module.exports = {
-  root: true
+  root: true,
   rules: {
     quotes: 0,
     "@typescript-eslint/quotes": [
