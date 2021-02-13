@@ -1,7 +1,7 @@
 {
   "name": "@typescord/eslint-config",
   "version": "0.0.0",
-  "description": "Eslint config for Typescord packages",
+  "description": "ESlint config for Typescord packages",
   "keywords": [
     "eslint",
     "eslint-config",
@@ -19,13 +19,14 @@
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.15.0",
-    "@typescript-eslint/parser": "^4.15.0",
-    "js-yaml": "^4.0.0"
+    "@typescript-eslint/parser": "^4.15.0"
   },
   "engines": {
     "node": ">=10.0.0"
   },
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "homepage": "https://github.com/typescord/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/typescord/eslint-config/issues"

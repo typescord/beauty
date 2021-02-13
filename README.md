@@ -6,25 +6,17 @@ This repository contains the ESLint configuration used by the core packages of T
 
 ## Installation
 
-The configuration requires `eslint`. Install the correct versions of the package which can be found with this command:
+You need to install [ESLint](http://eslint.org) with `@typescord/eslint-config`:
 
 ```sh
-npm info "@typescord/eslint-config" peerDependencies
+npm i eslint @typescord/eslint-config --save-dev
+# or with Yarn :
+yarn add eslint @typescord/eslint-config -D
 ```
 
-If using **npm 5+**, use this shortcut
-
-```sh
-npx install-peerdeps --dev @typescord/eslint-config
-```
-
-If using **yarn**, you can also use the shortcut described above if you have npm 5+ installed on your machine, as the command will detect that you are using yarn and will act accordingly.
-
-Otherwise, run `npm info "@typescord/eslint-config" peerDependencies` to list the peer dependencies and versions, then run `yarn add --dev <dependencies>` with all listed peer dependencies.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `@typescord/eslint-config` globally.
 
 ## Usage
-
-### For core or community packages
 
 `@typescord` must be extended when creating packages for Typescord.
 
