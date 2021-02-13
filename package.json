@@ -8,7 +8,7 @@
     "typescord",
     "typescript"
   ],
-  "main": "src/index.js",
+  "main": "index.js",
   "author": "typescord",
   "license": "MIT",
   "peerDependencies": {
@@ -25,9 +25,6 @@
   "engines": {
     "node": ">=10.0.0"
   },
-  "files": [
-    "src"
-  ],
   "homepage": "https://github.com/typescord/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/typescord/eslint-config/issues"
