@@ -6,7 +6,7 @@ This repository contains the ESLint configuration used by the core packages of T
 
 ## Installation
 
-The configuration requires `eslint` and `eslint-plugin-import`. Install the correct versions of each package, which are listed by the command:
+The configuration requires `eslint`. Install the correct versions of the package which can be found with this command:
 
 ```sh
 npm info "@typescord/eslint-config" peerDependencies
@@ -19,7 +19,8 @@ npx install-peerdeps --dev @typescord/eslint-config
 ```
 
 If using **yarn**, you can also use the shortcut described above if you have npm 5+ installed on your machine, as the command will detect that you are using yarn and will act accordingly.
-Otherwise, run `npm info "eslint-config-airbnb-base@latest" peerDependencies` to list the peer dependencies and versions, then run `yarn add --dev <dependency>@<version>` for each listed peer dependency.
+
+Otherwise, run `npm info "@typescord/eslint-config" peerDependencies` to list the peer dependencies and versions, then run `yarn add --dev <dependencies>` with all listed peer dependencies.
 
 ## Usage
 
