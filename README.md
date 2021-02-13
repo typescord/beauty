@@ -9,7 +9,7 @@ This repository contains the ESLint configuration used by the core packages of T
 ```
 $ npm i eslint eslint-plugin-typescord --save-dev
 // or with Yarn :
-$ yarn add eslint eslint-plugin-typescord -D
+$ yarn add eslint @typescord/eslint-config -D
 ```
 
 **Warning:** If you already installed ESLint globally, you must also install `@typescord/eslint-config` globally.
