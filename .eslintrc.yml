@@ -1,0 +1,9 @@
+root: true
+extends: ['./packages/eslint', 'plugin:prettier/recommended', 'prettier/@typescript-eslint']
+plugins: ['prettier']
+parserOptions:
+  project: tsconfig.json
+rules:
+  prettier/prettier: error
+env:
+  node: true
