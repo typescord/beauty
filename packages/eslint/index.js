@@ -145,6 +145,7 @@ module.exports = {
 		'simple-import-sort/exports': 'error',
 		'import/prefer-default-export': 'off',
 		'unicorn/filename-case': 'off',
+		'unicorn/import-style': 'off',
 		'unicorn/prevent-abbreviations': [
 			'warn',
 			{
