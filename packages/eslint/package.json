@@ -1,6 +1,6 @@
 {
 	"name": "@typescord/eslint-config",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "ESLint config for Typescord packages",
 	"keywords": [
 		"eslint",
