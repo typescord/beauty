@@ -145,6 +145,16 @@ module.exports = {
 		'simple-import-sort/exports': 'error',
 		'import/prefer-default-export': 'off',
 		'unicorn/filename-case': 'off',
+		'unicorn/prevent-abbreviations': [
+			'warn',
+			{
+				replacements: {
+					args: false,
+					arg: false,
+					pkg: false,
+				},
+			},
+		],
 	},
 	overrides: [
 		{

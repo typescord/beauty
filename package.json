@@ -5,8 +5,9 @@
 		"packages/*"
 	],
 	"scripts": {
-		"lint": "eslint . --ext js && prettier . --check",
-		"lint-fix": "eslint . --ext js && prettier . --write"
+		"lint": "eslint . --ext js",
+		"lint-fix": "yarn lint --fix",
+		"format": "prettier . --write"
 	},
 	"prettier": "./packages/prettier",
 	"license": "MIT",
