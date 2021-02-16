@@ -19,6 +19,8 @@ module.exports = {
 		],
 		semi: 'off',
 		'@typescript-eslint/semi': 'error',
+		'no-unused-vars': 'off',
+		'@typescript-eslint/no-unused-vars': 'error',
 		'eol-last': ['error', 'always'],
 		'object-shorthand': [
 			'error',
