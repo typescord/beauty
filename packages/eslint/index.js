@@ -19,6 +19,8 @@ module.exports = {
 		],
 		semi: 'off',
 		'@typescript-eslint/semi': 'error',
+		'no-unused-vars': 'off',
+		'@typescript-eslint/no-unused-vars': 'error',
 		'eol-last': ['error', 'always'],
 		'object-shorthand': [
 			'error',
@@ -143,6 +145,16 @@ module.exports = {
 		'simple-import-sort/exports': 'error',
 		'import/prefer-default-export': 'off',
 		'unicorn/filename-case': 'off',
+		'unicorn/prevent-abbreviations': [
+			'warn',
+			{
+				replacements: {
+					args: false,
+					arg: false,
+					pkg: false,
+				},
+			},
+		],
 	},
 	overrides: [
 		{
