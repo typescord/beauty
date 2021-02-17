@@ -5,8 +5,7 @@
 	"keywords": [
 		"prettier",
 		"prettier-config",
-		"typescord",
-		"typescript"
+		"typescord"
 	],
 	"main": "index.js",
 	"author": "typescord",
@@ -22,7 +21,7 @@
 	"engines": {
 		"node": ">=10.13.0"
 	},
-	"homepage": "https://github.com/typescord/beauty/tree/main/packages/prettier#readme",
+	"homepage": "https://github.com/typescord/beauty/tree/main/packages/prettier-eslint#readme",
 	"bugs": {
 		"url": "https://github.com/typescord/beauty/issues"
 	},

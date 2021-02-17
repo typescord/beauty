@@ -205,7 +205,6 @@ __metadata:
     eslint-config-prettier: ^7.2.0
     eslint-plugin-import: ^2.22.1
     eslint-plugin-prettier: ^3.3.1
-    eslint-plugin-simple-import-sort: ^7.0.0
     eslint-plugin-sonarjs: ^0.6.0
     eslint-plugin-unicorn: 28.0.1
     prettier: ^2.2.1
@@ -213,15 +212,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@typescord/eslint-config@workspace:packages/eslint":
+"@typescord/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
-  resolution: "@typescord/eslint-config@workspace:packages/eslint"
+  resolution: "@typescord/eslint-config@workspace:packages/eslint-config"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^4.15.0
     "@typescript-eslint/parser": ^4.15.0
     eslint: ">=7.17.0"
     eslint-plugin-import: ^2.x
-    eslint-plugin-simple-import-sort: ^7.x
     eslint-plugin-sonarjs: ^0.x
     eslint-plugin-unicorn: ">=28.0.1"
   peerDependenciesMeta:
@@ -231,8 +229,6 @@ __metadata:
       optional: false
     eslint-plugin-import:
       optional: false
-    eslint-plugin-simple-import-sort:
-      optional: false
     eslint-plugin-sonarjs:
       optional: false
     eslint-plugin-unicorn:
@@ -240,9 +236,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@typescord/prettier-config@workspace:packages/prettier":
+"@typescord/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
-  resolution: "@typescord/prettier-config@workspace:packages/prettier"
+  resolution: "@typescord/prettier-config@workspace:packages/prettier-config"
   peerDependencies:
     prettier: ^2.2.1
   peerDependenciesMeta:
@@ -821,15 +817,6 @@ __metadata:
     eslint-config-prettier:
       optional: true
   checksum: cf35b0f0e9ef30782fe82913db92f6874181723d77f0c4613f9d69c87069f73d0dc420ef850ebc844613c00a8e87eb9762a36b7d028334c5c7b091763118347b
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-simple-import-sort@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "eslint-plugin-simple-import-sort@npm:7.0.0"
-  peerDependencies:
-    eslint: ">=5.0.0"
-  checksum: 51fc6b675220681fd88e8fb7c0b9ff9b3b38e2c060999c72da7b0dee469cfe3fdbe1284374f2ade5015ee93d4d59eaf2d29c6185d4131b30aa057d9c9dec9483
   languageName: node
   linkType: hard
 

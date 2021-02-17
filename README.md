@@ -1,4 +1,4 @@
 # Typescord Beauty configs
 
-- [`@typescord/eslint-config`](packages/eslint)
-- [`@typescord/prettier-config`](packages/prettier)
+- [`@typescord/eslint-config`](packages/eslint-config)
+- [`@typescord/prettier-config`](packages/prettier-config)

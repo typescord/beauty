@@ -5,8 +5,7 @@
 	"keywords": [
 		"eslint",
 		"eslint-config",
-		"typescord",
-		"typescript"
+		"typescord"
 	],
 	"main": "index.js",
 	"author": "typescord",
@@ -16,7 +15,6 @@
 		"@typescript-eslint/parser": "^4.15.0",
 		"eslint": ">=7.17.0",
 		"eslint-plugin-import": "^2.x",
-		"eslint-plugin-simple-import-sort": "^7.x",
 		"eslint-plugin-sonarjs": "^0.x",
 		"eslint-plugin-unicorn": ">=28.0.1"
 	},
@@ -30,9 +28,6 @@
 		"eslint-plugin-import": {
 			"optional": false
 		},
-		"eslint-plugin-simple-import-sort": {
-			"optional": false
-		},
 		"eslint-plugin-sonarjs": {
 			"optional": false
 		},
@@ -43,7 +38,7 @@
 	"engines": {
 		"node": ">=10.12.0"
 	},
-	"homepage": "https://github.com/typescord/beauty/tree/main/packages/eslint#readme",
+	"homepage": "https://github.com/typescord/beauty/tree/main/packages/eslint-config#readme",
 	"bugs": {
 		"url": "https://github.com/typescord/beauty/issues"
 	},

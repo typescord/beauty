@@ -9,7 +9,7 @@
 		"lint-fix": "yarn lint --fix",
 		"format": "prettier . --write"
 	},
-	"prettier": "./packages/prettier",
+	"prettier": "./packages/prettier-config",
 	"license": "MIT",
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^4.15.1",
@@ -18,7 +18,6 @@
 		"eslint-config-prettier": "^7.2.0",
 		"eslint-plugin-import": "^2.22.1",
 		"eslint-plugin-prettier": "^3.3.1",
-		"eslint-plugin-simple-import-sort": "^7.0.0",
 		"eslint-plugin-sonarjs": "^0.6.0",
 		"eslint-plugin-unicorn": "28.0.1",
 		"prettier": "^2.2.1",

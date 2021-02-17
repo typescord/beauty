@@ -2,7 +2,8 @@
 {
 	"compilerOptions": {
 		"allowJs": true,
-		"strictNullChecks": true
+		"strictNullChecks": true,
+		"outDir": "fake"
 	},
 	"include": ["packages/**/*.js"]
 }
