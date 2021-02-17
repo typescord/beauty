@@ -14,6 +14,12 @@ npm i eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-p
 yarn add eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-import eslint-plugin-sonarjs eslint-plugin-unicorn @typescord/eslint-config -D
 ```
 
+If you have the error `Resolve error: unable to load resolver "node"` when you lint:
+
+```sh
+yarn add eslint-import-resolver-node -D
+```
+
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `@typescord/prettier-config` and others peer dependencies globally.
 
 ## Usage

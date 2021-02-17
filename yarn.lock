@@ -203,6 +203,7 @@ __metadata:
     "@typescript-eslint/parser": ^4.15.1
     eslint: ^7.20.0
     eslint-config-prettier: ^7.2.0
+    eslint-import-resolver-node: ^0.3.4
     eslint-plugin-import: ^2.22.1
     eslint-plugin-prettier: ^3.3.1
     eslint-plugin-sonarjs: ^0.6.0
@@ -215,10 +216,12 @@ __metadata:
 "@typescord/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@typescord/eslint-config@workspace:packages/eslint-config"
+  dependencies:
+    "@typescript-eslint/parser": ^4.15.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^4.15.0
-    "@typescript-eslint/parser": ^4.15.0
     eslint: ">=7.17.0"
+    eslint-import-resolver-node: ^0.3.4
     eslint-plugin-import: ^2.x
     eslint-plugin-sonarjs: ^0.x
     eslint-plugin-unicorn: ">=28.0.1"
@@ -227,6 +230,8 @@ __metadata:
       optional: false
     eslint:
       optional: false
+    eslint-import-resolver-node:
+      optional: true
     eslint-plugin-import:
       optional: false
     eslint-plugin-sonarjs:
@@ -285,7 +290,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^4.15.1":
+"@typescript-eslint/parser@npm:^4.15.0, @typescript-eslint/parser@npm:^4.15.1":
   version: 4.15.1
   resolution: "@typescript-eslint/parser@npm:4.15.1"
   dependencies:
