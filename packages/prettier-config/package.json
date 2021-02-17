@@ -1,6 +1,6 @@
 {
 	"name": "@typescord/prettier-config",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Prettier config for Typescord packages",
 	"keywords": [
 		"prettier",
