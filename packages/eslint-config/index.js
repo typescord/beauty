@@ -152,6 +152,7 @@ module.exports = {
 			},
 		],
 		'import/prefer-default-export': 'off',
+		'unicorn/prefer-number-properties': 'off',
 		'unicorn/filename-case': 'off',
 		'unicorn/import-style': 'off',
 		'unicorn/prevent-abbreviations': [
