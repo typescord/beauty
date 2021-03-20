@@ -5,23 +5,26 @@
 		"packages/*"
 	],
 	"scripts": {
-		"lint": "eslint . --ext js",
+		"lint": "eslint . --ext ts",
 		"lint-fix": "yarn lint --fix",
-		"format": "prettier . --write"
+		"format": "prettier . --write",
+		"mrm": "mrm --preset @typescord/mrm-preset"
 	},
 	"prettier": "./packages/prettier-config",
 	"license": "MIT",
 	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "^4.15.1",
-		"@typescript-eslint/parser": "^4.15.1",
-		"eslint": "^7.20.0",
+		"@typescord/mrm-preset": "^2.1.0",
+		"@typescript-eslint/eslint-plugin": "^4.18.0",
+		"@typescript-eslint/parser": "^4.18.0",
+		"eslint": "^7.22.0",
 		"eslint-config-prettier": "^7.2.0",
 		"eslint-import-resolver-node": "^0.3.4",
 		"eslint-plugin-import": "^2.22.1",
 		"eslint-plugin-prettier": "^3.3.1",
 		"eslint-plugin-sonarjs": "^0.6.0",
-		"eslint-plugin-unicorn": "28.0.1",
+		"eslint-plugin-unicorn": "28.0.2",
+		"mrm": "^2.6.0",
 		"prettier": "^2.2.1",
-		"typescript": "^4.1.5"
+		"typescript": "^4.2.3"
 	}
 }
