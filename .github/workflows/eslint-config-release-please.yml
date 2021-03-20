@@ -1,7 +1,8 @@
-name: Release Please
+name: Eslint-Config Release Please
 on:
   push:
     branches: [main]
+    paths: [packages/eslint-config/**]
 
 jobs:
   release-please:
@@ -16,7 +17,7 @@ jobs:
           pull-request-title-pattern: 'chore${scope}: release${component} v${version}'
           monorepo-tags: true
           bump-minor-pre-major: true
-
+          path: packages/eslint-config
           changelog-types: '[{"type":"feat","section":"Features"},{"type":"fix","section":"Bug Fixes"},{"type":"perf","section":"Performance Improvements"},{"type":"deps","section":"Dependencies"},{"type":"revert","section":"Reverts"},{"type":"docs","section":"Documentation"},{"type":"style","section":"Styles","hidden":true},{"type":"chore","section":"Miscellaneous Chores","hidden":true},{"type":"refactor","section":"Code Refactoring","hidden":true},{"type":"test","section":"Tests","hidden":true},{"type":"ci","section":"Continuous Integration","hidden":true}]'
 
       - uses: actions/checkout@v2
@@ -33,14 +34,8 @@ jobs:
         run: yarn install --immutable
         if: ${{ steps.release.outputs.release_created }}
 
-      - name: Get package name
-        id: package
-        run: |
-          name=$(echo "${{ steps.release.outputs.tag_name }}" | awk '{print $1}')
-          echo "::set-output name=name::$name"
-
       - name: Publish to NPM
-        run: yarn workspace ${{ steps.package.outputs.name }} npm publish --access public
+        run: yarn workspace @typescord/eslint-config npm publish --access public
         env:
           YARN_NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         if: ${{ steps.release.outputs.release_created }}
