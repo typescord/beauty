@@ -155,6 +155,7 @@ module.exports = {
 		'unicorn/prefer-number-properties': 'off',
 		'unicorn/filename-case': 'off',
 		'unicorn/import-style': 'off',
+		'unicorn/new-for-builtins': 'off',
 		'unicorn/prevent-abbreviations': [
 			'warn',
 			{
@@ -162,7 +163,6 @@ module.exports = {
 					args: false,
 					arg: false,
 					pkg: false,
-					res: false,
 				},
 			},
 		],
