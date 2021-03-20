@@ -1,55 +1,55 @@
 {
-	"name": "@typescord/eslint-config",
-	"version": "0.1.6",
-	"description": "ESLint config for Typescord packages",
-	"keywords": [
-		"eslint",
-		"eslint-config",
-		"typescord"
-	],
-	"main": "index.js",
-	"author": "typescord",
-	"license": "MIT",
-	"dependencies": {
-		"@typescript-eslint/parser": "^4.18.0"
-	},
-	"peerDependencies": {
-		"@typescript-eslint/eslint-plugin": "^4.15.0",
-		"eslint": ">=7.17.0",
-		"eslint-import-resolver-node": "^0.3.4",
-		"eslint-plugin-import": "^2.x",
-		"eslint-plugin-sonarjs": "^0.x",
-		"eslint-plugin-unicorn": ">=28.0.1"
-	},
-	"peerDependenciesMeta": {
-		"@typescript-eslint/eslint-plugin": {
-			"optional": false
-		},
-		"eslint": {
-			"optional": false
-		},
-		"eslint-import-resolver-node": {
-			"optional": true
-		},
-		"eslint-plugin-import": {
-			"optional": false
-		},
-		"eslint-plugin-sonarjs": {
-			"optional": false
-		},
-		"eslint-plugin-unicorn": {
-			"optional": false
-		}
-	},
-	"engines": {
-		"node": ">=10.12.0"
-	},
-	"homepage": "https://github.com/typescord/beauty/tree/main/packages/eslint-config#readme",
-	"bugs": {
-		"url": "https://github.com/typescord/beauty/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/typescord/beauty.git"
-	}
+  "name": "@typescord/eslint-config",
+  "version": "0.2.0",
+  "description": "ESLint config for Typescord packages",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typescord"
+  ],
+  "main": "index.js",
+  "author": "typescord",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.18.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "eslint": ">=7.17.0",
+    "eslint-import-resolver-node": "^0.3.4",
+    "eslint-plugin-import": "^2.x",
+    "eslint-plugin-sonarjs": "^0.x",
+    "eslint-plugin-unicorn": ">=28.0.1"
+  },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/eslint-plugin": {
+      "optional": false
+    },
+    "eslint": {
+      "optional": false
+    },
+    "eslint-import-resolver-node": {
+      "optional": true
+    },
+    "eslint-plugin-import": {
+      "optional": false
+    },
+    "eslint-plugin-sonarjs": {
+      "optional": false
+    },
+    "eslint-plugin-unicorn": {
+      "optional": false
+    }
+  },
+  "engines": {
+    "node": ">=10.12.0"
+  },
+  "homepage": "https://github.com/typescord/beauty/tree/main/packages/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/typescord/beauty/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typescord/beauty.git"
+  }
 }
