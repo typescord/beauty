@@ -108,8 +108,9 @@ dist
 
 # Yarn 2
 .yarn/*
-!.yarn/releases
+!.yarn/patches
 !.yarn/plugins
+!.yarn/releases
 !.yarn/sdks
 !.yarn/versions
 .pnp.*
