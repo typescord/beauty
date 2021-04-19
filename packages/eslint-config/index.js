@@ -152,6 +152,7 @@ module.exports = {
 				groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'object'],
 			},
 		],
+		'import/no-unresolved': 'off',
 		'import/prefer-default-export': 'off',
 		'unicorn/prefer-number-properties': 'off',
 		'unicorn/filename-case': 'off',
