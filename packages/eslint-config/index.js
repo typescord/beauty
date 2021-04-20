@@ -67,7 +67,7 @@ module.exports = {
 		'one-var': ['error', 'never'],
 		'no-cond-assign': ['error', 'except-parens'],
 		'comma-dangle': ['error', 'always-multiline'],
-		eqeqeq: ['error', 'always'],
+		eqeqeq: ['error', 'always', { null: 'ignore' }],
 		'new-parens': ['error', 'always'],
 		'no-caller': 'error',
 		'no-constant-condition': 'error',
