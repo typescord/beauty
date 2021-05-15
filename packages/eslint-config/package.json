@@ -39,7 +39,7 @@
 			"optional": false
 		},
 		"eslint-plugin-tsdoc": {
-			"optional": false
+			"optional": true
 		},
 		"eslint-plugin-unicorn": {
 			"optional": false
