@@ -13,6 +13,7 @@
 	"prettier": "./packages/prettier-config",
 	"license": "MIT",
 	"devDependencies": {
+		"@microsoft/tsdoc": "^0.13.2",
 		"@typescord/mrm-preset": "^2.1.0",
 		"@typescript-eslint/eslint-plugin": "^4.22.0",
 		"@typescript-eslint/parser": "^4.22.0",
@@ -21,6 +22,7 @@
 		"eslint-plugin-import": "^2.22.1",
 		"eslint-plugin-prettier": "^3.4.0",
 		"eslint-plugin-sonarjs": "^0.6.0",
+		"eslint-plugin-tsdoc": "^0.2.14",
 		"eslint-plugin-unicorn": "30.0.0",
 		"mrm": "^3.0.1",
 		"prettier": "^2.2.1",

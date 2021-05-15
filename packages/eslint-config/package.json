@@ -14,13 +14,18 @@
 		"@typescript-eslint/parser": "^4.22.0"
 	},
 	"peerDependencies": {
+    "@microsoft/tsdoc": "^0.13.2",
 		"@typescript-eslint/eslint-plugin": "^4.15.0",
 		"eslint": ">=7.17.0",
 		"eslint-plugin-import": "^2.x",
 		"eslint-plugin-sonarjs": "^0.x",
+		"eslint-plugin-tsdoc": "^0.2.14",
 		"eslint-plugin-unicorn": ">=28.0.1"
 	},
 	"peerDependenciesMeta": {
+    "@microsoft/tsdoc": {
+      "optional": false
+    },
 		"@typescript-eslint/eslint-plugin": {
 			"optional": false
 		},
@@ -31,6 +36,9 @@
 			"optional": false
 		},
 		"eslint-plugin-sonarjs": {
+			"optional": false
+		},
+		"eslint-plugin-tsdoc": {
 			"optional": false
 		},
 		"eslint-plugin-unicorn": {
