@@ -13,7 +13,6 @@
 	"prettier": "./packages/prettier-config",
 	"license": "MIT",
 	"devDependencies": {
-		"@microsoft/tsdoc": "^0.13.2",
 		"@typescord/mrm-preset": "^2.1.0",
 		"@typescript-eslint/eslint-plugin": "^4.22.0",
 		"@typescript-eslint/parser": "^4.22.0",

@@ -317,7 +317,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@microsoft/tsdoc@npm:0.13.2, @microsoft/tsdoc@npm:^0.13.2":
+"@microsoft/tsdoc@npm:0.13.2":
   version: 0.13.2
   resolution: "@microsoft/tsdoc@npm:0.13.2"
   checksum: b0ddc7689f52a69e0472fd9ca30d8242d4d7bae5cb5d3d86f2ad394a122d63feee0a82276fc2dc6b199bb96c20b309bcd3ab3c6517ddd70b98d8ae890b6995ab
@@ -417,7 +417,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@typescord/beauty@workspace:."
   dependencies:
-    "@microsoft/tsdoc": ^0.13.2
     "@typescord/mrm-preset": ^2.1.0
     "@typescript-eslint/eslint-plugin": ^4.22.0
     "@typescript-eslint/parser": ^4.22.0
@@ -456,7 +455,7 @@ __metadata:
     eslint-plugin-sonarjs:
       optional: false
     eslint-plugin-tsdoc:
-      optional: false
+      optional: true
     eslint-plugin-unicorn:
       optional: false
   languageName: unknown
