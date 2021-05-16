@@ -18,6 +18,7 @@
 		"eslint": ">=7.17.0",
 		"eslint-plugin-import": "^2.x",
 		"eslint-plugin-sonarjs": "^0.x",
+		"eslint-plugin-tsdoc": "^0.2.14",
 		"eslint-plugin-unicorn": ">=28.0.1"
 	},
 	"peerDependenciesMeta": {
@@ -32,6 +33,9 @@
 		},
 		"eslint-plugin-sonarjs": {
 			"optional": false
+		},
+		"eslint-plugin-tsdoc": {
+			"optional": true
 		},
 		"eslint-plugin-unicorn": {
 			"optional": false
