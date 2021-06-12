@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.3.1](https://www.github.com/typescord/beauty/compare/eslint-config-v0.3.0...eslint-config-v0.3.1) (2021-06-12)
+
+
+### Reverts
+
+* feat(eslint-config): add eslint-plugin-tsdoc ([#10](https://www.github.com/typescord/beauty/issues/10)) ([d4edf11](https://www.github.com/typescord/beauty/commit/d4edf11bfab48d9815b87c587bae0bed0c97e889))
+
 ## [0.3.0](https://www.github.com/typescord/beauty/compare/eslint-config-v0.2.1...eslint-config-v0.3.0) (2021-05-16)
 
 
