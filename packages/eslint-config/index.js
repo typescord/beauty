@@ -154,6 +154,7 @@ module.exports = {
 		],
 		'import/no-unresolved': 'off',
 		'import/prefer-default-export': 'off',
+		'unicorn/prefer-module': 'off',
 		'unicorn/prefer-node-protocol': 'off',
 		'unicorn/prefer-number-properties': 'off',
 		'unicorn/filename-case': 'off',
