@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://www.github.com/typescord/beauty/compare/eslint-config-v0.3.1...eslint-config-v0.4.0) (2021-06-13)
+
+
+### Features
+
+* **eslint-config:** update rules ([a32ac42](https://www.github.com/typescord/beauty/commit/a32ac42f6353cf16c9f197960c1fb22b8f3af2ea))
+
 ### [0.3.1](https://www.github.com/typescord/beauty/compare/eslint-config-v0.3.0...eslint-config-v0.3.1) (2021-06-12)
 
 
