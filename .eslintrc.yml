@@ -1,5 +1,5 @@
 root: true
-extends: ['./packages/eslint-config', 'plugin:prettier/recommended', 'prettier']
+extends: ['./packages/eslint-config', prettier]
 plugins: ['prettier']
 parserOptions:
   project: tsconfig.json
