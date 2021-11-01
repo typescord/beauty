@@ -12,7 +12,7 @@ module.exports = {
 	endOfLine: 'lf',
 	overrides: [
 		{
-			files: '*.yml',
+			files: ['*.yml', '*.md'],
 			options: {
 				useTabs: false,
 			},
